@@ -142,7 +142,7 @@ document.getElementById('focusObject').addEventListener('click', () => {
 });
 
 // Example of initial objects
-objects.push(createObject('N1', 10000, 100, 0, 0, 0, 0, 0, 0, '#ff0000', 'planet/Terrestrial2.png', true, 10, 0.001));
+objects.push(createObject('N1', 10000, 100, 0, 0, 0, 0, 0, 0, '#ff0000', 'planet/7.png', true, 10, 0.001));
 objects.push(createObject('N3', 100, 50, 1000, 0, 0, 0, 0, -2, '#0000ff', 'planet/2.jpg', true, 1, 0));
 
 updateObjectSelector(); // Update object selector on initialization
