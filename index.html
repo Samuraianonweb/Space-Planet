@@ -70,7 +70,7 @@
             <option value="planet/4.jpg">Dead 2</option>
             <option value="planet/5.jpg">Neptune</option>
             <option value="planet/6.jpg">Red</option>
-            <option value="planet/Terrestrial2.png">Terra</option>
+            <option value="planet/7.png">Terra</option>
         </select><br>
         
         <button id="createObject">Create Object</button>
@@ -89,7 +89,6 @@
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
     <script src="2.1.js"></script>
     <script>
-        // Insert your JavaScript code here
 
         // Example toggle functionality
         const toggleUIButton = document.getElementById('toggleUI');
@@ -101,12 +100,12 @@
                 toggleUIButton.textContent = 'Hide UI';
             } else {
                 uiPanel.style.display = 'none';
-                toggleUIButton.textContent = 'Show UI';
+                toggleUIButton.textContent = 'UI';
             }
         });
 
         // Set initial button text
-        toggleUIButton.textContent = 'Hide UI';
+        toggleUIButton.textContent = 'UI';
         </script>
 </body>
 </html>
